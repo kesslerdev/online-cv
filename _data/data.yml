@@ -7,194 +7,123 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Jeff Monnier
+    tagline: DevOps Engineer
+    avatar: profile.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+    email: kessler.dev@gmail.com
+    phone: +33 6 51 13 53 61
+    linkedin: jfmonnierdev
+    github: kesslerdev
+    gitlab: kesslerdev
+    bitbucket: kesslerdev
 
     languages:
-      - idiom: English
-        level: Native
-
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
+      - idiom: Anglais
+        level: Professionnel
 
     interests:
-      - item: Climbing
-        link:
-
-      - item: Snowboarding
-        link:
-
-      - item: Cooking
-        link:
+      - item: Téchnologie
+      - item: Impression 3D
+      - item: Science
+      - item: Domotique
 
 career-profile:
-    title: Career Profile
+    title: Profil
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
+      Passionné par l'informatique depuis mon plus jeune âge, j'ai pu grâce à 
+      mes projets personnels & professionnels acquérir le sens de la méthode, 
+      la rigueur, l’autonomie et des qualités relationnelles.
 
-      Second paragraph if required.
+      J’aime partager et mettre à profit mon expérience et mes qualitées techniques.
 
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
-
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
+    - degree: Autodidacte 
+      university: Web
+      time: à partir de 2003
 
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: DevOps Engineer / Dev Back
+      time: 2016 - Present
+      company: InExtenso Digital
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        Supervisation de la migration d’apps légacy vers docker, mise en place 
+        des tests automatisées et du déploiement continu ainsi que du 
+        developpement d’outils cli afin de simplifier ces processus.
+        
+        Gestion et maintenance de clusters Rancher (~ 50 nodes), ainsi que des 
+        outils automatisées pour gérer les opérations lourdes.
+        
+        Préparation de la transition vers le cloud AWS avec l’orchestrateur 
+        Kubernetes, analyses & choix techniques: Infrastructure as Code, 
+        Autoscaling, Self-healing, monitoring, logging, tests de charge et 
+        de résilience.
 
-          - Bullet point
-          - Bullet point
+        Monitoring d'un cluster kubernetes de production d'en moyenne 70 nodes, 
+        déploiement zero downtime, autoscaling des nodes & pods.
+        Automatisation de divers procédes cloud (Lambdas)
+        Mises à jour des composants d'infrastructure (kubernetes)
 
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+        Developpement d’applications back (micro-services) en php 7, Postgres, S3.
+        Soutien technique et accompagnement dans la formation pour la montée en compétences.
+
+    - role: Lead dev / Admin Système / Dev Full Stack
+      time: 2014 - 2016
+      company: Skimia Agency
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        En charge de l’annalyse des besoins clients, découpage en tâches, 
+        priorisation et distribution en fonctions des compétences de chacun, 
+        plannings et mise en place des outils d’intégration continue 
+        (Travis, CodeCov, StyleCI, et documentation hébergée). 
+        
+        Soutien technique et accompagnement dans la formation pour la montée en 
+        compétences. Provisionning des serveurs, mise en production et maintenance. 
+        Apport de toute mon expértise technique pour la conception et la 
+        réalisation et maintenance du logiciel de l’entreprise le Skimia OS.
 
-          - Bullet point
-          - Bullet point
-
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role: Dev Full Stack / Gestion serveur / Chef de projet
+      time: 2015 - 2016
+      company: Alvecom
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        En charge de la maintenance du serveur dédié, ainsi que du 
+        réseau local de partages. Ainsi que des developpements de l’application 
+        de gestion d’annonces sur les places de marché. 
+        Gestion des tâches et des délais previsonnels.
 
-          - Bullet point
-          - Bullet point
 
 projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    title: Projets
 
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Quarkit
+        link: "https://kesslerdev.github.io/quarkit/demo-react/"
+        tagline: "Clicker gameplay framework"
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: SkimiaOS
+        tagline: "Application sur mesure de gestion de site vitrine fronend AngularJS et backend Api REST sous laravel."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-
-    papers:
-      - title: The Art of Computer Programming
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: Sharkemu
+        tagline: "Contribution à l'implémentation de gameplay"
 
 skills:
-    title: Skills &amp; Proficiency
+    #title: 
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Orchestration
+        known: Kubernetes, Rancher
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: Composants
+        known: CoreDNS, Nginx, Traefik, Fluentd, Prometheus, Grafana, Kibana, RabbitMQ HA 
 
-      - name: Angular
-        level: 98%
+      - name: Cloud Aws
+        known: EC2, IAM, Lambda, S3, RDS, CloudFormation, Cloudfront,...
 
-      - name: HTML5 & CSS
-        level: 95%
+      - name: Dev
+        known: Javascript modèrne nodejs, php7, C#, shell
 
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Autres
+        known: Redis, MySQL, MongoDB, PostgresSQL
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
