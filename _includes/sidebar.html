@@ -7,7 +7,7 @@
     <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
     {% endif %}
 
-    {% if !sidebar.annonymous && sidebar.name %}
+    {% if sidebar.annonymous == false and sidebar.name %}
     <h1 class="name">{{ sidebar.name }}</h1>
     {% endif %}
 
@@ -16,7 +16,7 @@
     {% endif %}
 
   </div><!--//profile-container-->
-  {% if !sidebar.annonymous %}
+  {% if sidebar.annonymous == false %}
     {% include contact.html %}
   {% endif %}
   {% include skills.html %}
