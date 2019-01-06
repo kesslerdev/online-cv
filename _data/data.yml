@@ -3,127 +3,144 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
 
-    annonymous: False # set to True if you want share this cv for a recruiter
-    # Profile information
-    name: Jeff Monnier
-    tagline: DevOps Engineer
-    avatar: profile.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  annonymous: False # set to True if you want share this cv for a recruiter
+  # Profile information
+  name: Jeff Monnier
+  tagline: DevOps Engineer
+  avatar: profile.jpeg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: kessler.dev@gmail.com
-    linkedin: jfmonnierdev
-    github: kesslerdev
-    gitlab: kesslerdev
-    bitbucket: kesslerdev
+  # Sidebar links
+  email: kessler.dev@gmail.com
+  linkedin: jfmonnierdev
+  github: kesslerdev
+  gitlab: kesslerdev
+  bitbucket: kesslerdev
 
-    languages:
+  education:
+    title: Formation
+    list:
+      - degree: Autodidacte
+        university: Web
+        time: à partir de 2003
+
+  languages:
+    title: Langues
+    list:
       - idiom: Anglais
         level: Professionnel
 
-    interests:
+  interests:
+    title: Hobbies
+    list:
       - item: Téchnologie
       - item: Impression 3D
       - item: Science
       - item: Domotique
 
 career-profile:
-    title: Profil
-    summary: |
-      Passionné par l'informatique depuis mon plus jeune âge, j'ai pu grâce à 
-      mes projets personnels & professionnels acquérir le sens de la méthode, 
-      la rigueur, l’autonomie et des qualités relationnelles.
+  title: Profil
+  summary: |
+    Passionné par l'informatique depuis mon plus jeune âge, j'ai pu grâce 
+    à mes projets personnels & professionnels acquérir le sens de la méthode, 
+    la rigueur, l’autonomie et des qualités relationnelles.
 
-      J’aime partager et mettre à profit mon expérience et mes qualitées techniques.
-
-education:
-    - degree: Autodidacte 
-      university: Web
-      time: à partir de 2003
+    J’aime partager et mettre à profit mon expérience et mes qualités 
+    techniques.
 
 experiences:
+  title: Experiences
+  list:
     - role: DevOps Engineer / Dev Back
       time: 2016 - Present
       company: InExtenso Digital
       details: |
-        Supervisation de la migration d’apps légacy vers docker, mise en place 
-        des tests automatisées et du déploiement continu ainsi que du 
-        developpement d’outils cli afin de simplifier ces processus.
-        
+        Supervision de la migration d’apps légacy vers docker, mise en place 
+        des tests automatisés et du déploiement continu ainsi que du 
+        développement d’outils cli afin de simplifier ces processus.
+
         Gestion et maintenance de clusters Rancher (~ 50 nodes), ainsi que des 
-        outils automatisées pour gérer les opérations lourdes.
-        
+        outils automatisés pour gérer les opérations lourdes.
+
         Préparation de la transition vers le cloud AWS avec l’orchestrateur 
         Kubernetes, analyses & choix techniques: Infrastructure as Code, 
-        Autoscaling, Self-healing, monitoring, logging, tests de charge et 
-        de résilience.
+        Autoscaling, Self-healing, monitoring, logging, tests de charge et de 
+        résilience.
 
         Monitoring d'un cluster kubernetes de production d'en moyenne 70 nodes, 
-        déploiement zero downtime, autoscaling des nodes & pods.
-        Automatisation de divers procédes cloud (Lambdas)
+        déploiement zéro downtime, auto-scaling des nodes & pods.
+
+        Automatisation de divers procédés cloud (Lambdas)
+
         Mises à jour des composants d'infrastructure (kubernetes)
 
-        Developpement d’applications back (micro-services) en php 7, Postgres, S3.
-        Soutien technique et accompagnement dans la formation pour la montée en compétences.
+        Développement d’applications back (micro-services) en Php 7, Postgres, 
+        S3.
+
+        Soutien technique et accompagnement dans la formation pour la montée en 
+        compétences.
 
     - role: Lead dev / Admin Système / Dev Full Stack
       time: 2014 - 2016
       company: Skimia Agency
       details: |
-        En charge de l’annalyse des besoins clients, découpage en tâches, 
-        priorisation et distribution en fonctions des compétences de chacun, 
+        En charge de l’analyse des besoins clients, découpage en tâches, 
+        priorisation et distribution en fonction des compétences de chacun, 
         plannings et mise en place des outils d’intégration continue 
-        (Travis, CodeCov, StyleCI, et documentation hébergée). 
-        
+        (Travis, Code Cov, Style Ci, et documentation hébergée). 
+
         Soutien technique et accompagnement dans la formation pour la montée en 
-        compétences. Provisionning des serveurs, mise en production et maintenance. 
-        Apport de toute mon expértise technique pour la conception et la 
-        réalisation et maintenance du logiciel de l’entreprise le Skimia OS.
+        compétences. Provisionning des serveurs, mise en production et 
+        maintenance. 
+
+        Apport de toute mon expertise technique pour la conception et la 
+        maintenance du logiciel de conception de site internet avec divers 
+        modules le skimia OS.
 
     - role: Dev Full Stack / Gestion serveur / Chef de projet
       time: 2015 - 2016
       company: Alvecom
       details: |
-        En charge de la maintenance du serveur dédié, ainsi que du 
-        réseau local de partages. Ainsi que des developpements de l’application 
-        de gestion d’annonces sur les places de marché. 
-        Gestion des tâches et des délais previsonnels.
+        En charge de la maintenance du serveur dédié, ainsi que du réseau local 
+        de partage. Ainsi que des développements de l’application de gestion 
+        d’annonces sur les places de marché.
 
+        Gestion des tâches et des délais prévisionnels.
 
 projects:
-    title: Projets
+  title: Projets
 
-    assignments:
-      - title: Quarkit
-        link: "https://kesslerdev.github.io/quarkit/demo-react/"
-        tagline: "Clicker gameplay framework"
+  assignments:
+    - title: Quarkit
+      link: "https://kesslerdev.github.io/quarkit/demo-react/"
+      tagline: "Clicker gameplay framework"
 
-      - title: SkimiaOS
-        tagline: "Application sur mesure de gestion de site vitrine fronend AngularJS et backend Api REST sous laravel."
+    - title: SkimiaOS
+      tagline: "Application sur mesure de gestion de site vitrine fronend AngularJS et backend Api REST sous laravel."
 
-      - title: Sharkemu
-        tagline: "Contribution à l'implémentation de gameplay"
+    - title: Sharkemu
+      tagline: "Contribution à l'implémentation de gameplay de cet émulateur pour un mmorpg au tour par tour"
 
 skills:
-    #title: 
+  #title:
 
-    toolset:
-      - name: Orchestration
-        known: Kubernetes, Rancher
+  toolset:
+    - name: Orchestration
+      known: Kubernetes, Rancher
 
-      - name: Composants
-        known: CoreDNS, Nginx, Traefik, Fluentd, Prometheus, Grafana, Kibana, RabbitMQ HA 
+    - name: Composants
+      known: CoreDNS, Nginx, Traefik, Fluentd, Prometheus, Grafana, Kibana, RabbitMQ HA
 
-      - name: Cloud Aws
-        known: EC2, IAM, Lambda, S3, RDS, CloudFormation, Cloudfront,...
+    - name: Cloud Aws
+      known: EC2, IAM, Lambda, S3, RDS, CloudFormation, Cloudfront,...
 
-      - name: Dev
-        known: Javascript modèrne nodejs, php7, C#, shell
+    - name: Dev
+      known: Javascript modèrne nodejs, serverless, php7, C#, shell
 
-      - name: Autres
-        known: Redis, MySQL, MongoDB, PostgresSQL
+    - name: Autres
+      known: GraphQl, Redis, MySQL, MongoDB, PostgresSQL
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
