@@ -54,7 +54,7 @@ experiences:
   title: Experiences
   list:
     - role: DevOps Engineer / Dev Back
-      time: 2016 - Present
+      time: juin 2016 - Present
       company: InExtenso Digital
       details: |
         Supervision de la migration d’apps légacy vers docker, mise en place 
@@ -83,7 +83,7 @@ experiences:
         compétences.
 
     - role: Lead dev / Admin Système / Dev Full Stack
-      time: 2014 - 2016
+      time: mars 2014 - juin 2016
       company: Skimia Agency
       details: |
         En charge de l’analyse des besoins clients, découpage en tâches, 
@@ -98,9 +98,13 @@ experiences:
         Apport de toute mon expertise technique pour la conception et la 
         maintenance du logiciel de conception de site internet avec divers 
         modules le skimia OS.
+        ### Missions
+
+        - first Missions
+        - another mission
 
     - role: Dev Full Stack / Gestion serveur / Chef de projet
-      time: 2015 - 2016
+      time: mars 2015 - juin 2016
       company: Alvecom
       details: |
         En charge de la maintenance du serveur dédié, ainsi que du réseau local 
