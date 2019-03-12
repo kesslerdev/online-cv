@@ -82,6 +82,26 @@ experiences:
         Soutien technique et accompagnement dans la formation pour la montée en 
         compétences.
 
+        ##### Missions
+
+        - Garant du bon fonctionnement des applications
+        - Traitement des incidents jusqu'a résolution
+        - Gérer les échéances
+        - Automatiser les processus
+        - Control en temps réel(sondes), analyse, résolution et repporting
+        - Participation à la definition de la politique de securité et sauvegarde
+        - Gestion des coûts (AWS)
+        - Gêrer les scripts d'infrastructure as code
+        - Rédiger des scripts Shell
+        - Mise en place de procédures et d'outils
+        - Mettre en production les nouvelles apps / évolutions
+        - Gérer le versionning
+        - Mettre en place des process d'integration et de deploiement continu
+        - Planification des interventions de maintenance
+        - Etude et mise en place d'amélioration d'infrastructure
+        - Participation aux études techniques et de fesabilité
+        - Developpement Applicatif (PHP/Symfony, Node/lambda)
+
     - role: Lead dev / Admin Système / Dev Full Stack
       time: mars 2014 - juin 2016
       company: Skimia Agency
@@ -98,10 +118,18 @@ experiences:
         Apport de toute mon expertise technique pour la conception et la 
         maintenance du logiciel de conception de site internet avec divers 
         modules le skimia OS.
-        ### Missions
+        ##### Missions
 
-        - first Missions
-        - another mission
+        - Manager une équipe de developpeurs
+        - Former les collaborateurs
+        - Rencontrer les clients
+        - Mettre en place des process d'integration
+        - Garant du bon fonctionnement des applications
+        - Traitement des incidents jusqu'a résolution
+        - Gérer les échéances
+        - Mettre en production les nouvelles évolutions
+        - Participation aux études techniques et de fesabilité
+        - Developpement Applicatif (PHP/Laravel)
 
     - role: Dev Full Stack / Gestion serveur / Chef de projet
       time: mars 2015 - juin 2016
@@ -112,6 +140,17 @@ experiences:
         d’annonces sur les places de marché.
 
         Gestion des tâches et des délais prévisionnels.
+        ##### Missions
+
+        - Garant du bon fonctionnement des applications
+        - Traitement des incidents jusqu'a résolution
+        - Gérer les échéances 
+        - Automatiser les processus
+        - Mettre en production les nouvelles évolutions
+        - Gérer le versionning
+        - Planification des interventions de maintenance
+        - Participation aux études techniques et de fesabilité
+        - Developpement Applicatif (PHP/Laravel)
 
 projects:
   title: Projets
