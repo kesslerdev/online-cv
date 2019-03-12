@@ -88,7 +88,7 @@ experiences:
         - Traitement des incidents jusqu'a résolution
         - Gérer les échéances
         - Automatiser les processus
-        - Control en temps réel(sondes), analyse, résolution et repporting
+        - Control en temps réel(sondes/graph), analyse, résolution et repporting
         - Participation à la definition de la politique de securité et sauvegarde
         - Gestion des coûts (AWS)
         - Gêrer les scripts d'infrastructure as code
