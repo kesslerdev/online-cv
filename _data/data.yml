@@ -171,7 +171,10 @@ skills:
 
   toolset:
     - name: Orchestration
-      known: Kubernetes, Rancher
+      known: Kubernetes, Openshift, swarm
+
+    - name: Tools
+      known: Terraform, Helm, ArgoCD, gitlab-ci, Cloudinit,
 
     - name: Composants
       known: CoreDNS, Nginx, Traefik, Fluentd, Prometheus, Grafana, Kibana, RabbitMQ HA
