@@ -174,7 +174,7 @@ skills:
       known: Kubernetes, Openshift, swarm
 
     - name: Tools
-      known: Terraform, Helm, ArgoCD, gitlab-ci, Cloudinit,
+      known: Terraform, Helm, ArgoCD, gitlab-ci, Cloudinit
 
     - name: Composants
       known: CoreDNS, Nginx, Traefik, Fluentd, Prometheus, Grafana, Kibana, RabbitMQ HA
