@@ -1,219 +1,208 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
-
-sidebar:
-  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-  education: True # set to False if you want education in main section instead of in sidebar
-
-  annonymous: False # set to True if you want share this cv for a recruiter
-  # Profile information
-  name: Jeff Monnier
-  tagline: DevOps Engineer
-  avatar: profile.jpeg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-
-  # Sidebar links
-  email: kessler.dev@gmail.com
-  linkedin: jfmonnierdev
-  github: kesslerdev
-  gitlab: kesslerdev
-  bitbucket: kesslerdev
-
-  education:
-    title: Formation
-    list:
-      - degree: Autodidacte
-        university: Web
-        time: à partir de 2003
-
-  languages:
-    title: Langues
-    list:
-      - idiom: Anglais
-        level: Professionnel
-
-  interests:
-    title: Hobbies
-    list:
-      - item: Téchnologie
-      - item: Impression 3D
-      - item: Science
-      - item: Domotique
-
-career-profile:
-  title: Profil
+--- 
+career-profile: 
   summary: |
-    Passionné par l'informatique depuis mon plus jeune âge, j'ai pu grâce 
-    à mes projets personnels & professionnels acquérir le sens de la méthode, 
-    la rigueur, l’autonomie et des qualités relationnelles.
-
-    J’aime partager et mettre à profit mon expérience et mes qualités 
-    techniques.
-
-experiences:
-  title: Experiences
-  list:
-    - role: DevOps Engineer
-      time: mai 2019 - present
+      Passionné par l'informatique depuis mon plus jeune âge, j'ai pu grâce 
+      à mes projets personnels & professionnels acquérir le sens de la méthode, 
+      la rigueur, l’autonomie et des qualités relationnelles.
+      
+      J’aime partager et mettre à profit mon expérience et mes qualités 
+      techniques.
+  title: Profil
+experiences: 
+  list: 
+    - 
       company: Docaposte
       details: |
-        Deploiement / monitoring de plusieurs petits cluster kubernetes bare metal, ansi que sur openstack.
-        Chaines de déploiement, pour la gestion des composants déployes au sein de kubernetes.
-        
-        Création de diverses templates Iaac swarm / openstack (terraform).
-        
-        Developpement d'un outil interne pour le suivi des outils / accès aux differents projets.
-        
-        Deploiement et maintenance de cluster Openshift bare-metal, ainsi que du déploiement de la solution Openshift Container Storage.
-        
-        ##### Missions
-
-        - Installation & Mises à jours Kubernetes
-        - Traitement des incidents jusqu'a résolution
-        - Automatiser les processus
-        - Gêrer les scripts d'infrastructure as code
-        - Creation et gestion de templates Iaac reutilisables
-        - Rédiger des scripts Shell
-        - Mise en place de procédures et d'outils
-        - Mettre en place des process d'integration et de deploiement continu
-        - Planification des interventions de maintenance
-        - Etude et mise en place d'amélioration d'infrastructure
-        - Developpement full stack (Node/Angular)
-
-- role: DevOps Engineer / Dev Back
-      time: juin 2016 - mai 2019
-      company: InExtenso Digital
+          Deploiement / monitoring de plusieurs petits cluster kubernetes bare metal, ansi que sur openstack.
+          Chaines de déploiement, pour la gestion des composants déployes au sein de kubernetes.
+          
+          Création de diverses templates Iaac swarm / openstack (terraform).
+          
+          Developpement d'un outil interne pour le suivi des outils / accès aux differents projets.
+          
+          Deploiement et maintenance de cluster Openshift bare-metal, ainsi que du déploiement de la solution Openshift Container Storage.
+          
+          ##### Missions
+          
+          - Installation & Mises à jours Kubernetes
+          - Traitement des incidents jusqu'a résolution
+          - Automatiser les processus
+          - Gêrer les scripts d'infrastructure as code
+          - Creation et gestion de templates Iaac reutilisables
+          - Rédiger des scripts Shell
+          - Mise en place de procédures et d'outils
+          - Mettre en place des process d'integration et de deploiement continu
+          - Planification des interventions de maintenance
+          - Etude et mise en place d'amélioration d'infrastructure
+          - Developpement full stack (Node/Angular)
+      role: "DevOps Engineer"
+      time: "mai 2019 - present"
+    - 
+      company: "InExtenso Digital"
       details: |
-        Supervision de la migration d’apps légacy vers docker, mise en place 
-        des tests automatisés et du déploiement continu ainsi que du 
-        développement d’outils cli afin de simplifier ces processus.
-
-        Gestion et maintenance de clusters Rancher (~ 50 nodes), ainsi que des 
-        outils automatisés pour gérer les opérations lourdes.
-
-        Préparation de la transition vers le cloud AWS avec l’orchestrateur 
-        Kubernetes, analyses & choix techniques: Infrastructure as Code, 
-        Autoscaling, Self-healing, monitoring, logging, tests de charge et de 
-        résilience.
-
-        Monitoring d'un cluster kubernetes de production d'en moyenne 70 nodes, 
-        déploiement zéro downtime, auto-scaling des nodes & pods.
-
-        Automatisation de divers procédés cloud (Lambdas)
-
-        Mises à jour des composants d'infrastructure (kubernetes)
-
-        Développement d’applications back (micro-services) en Php 7, Postgres, 
-        S3.
-
-        Soutien technique et accompagnement dans la formation pour la montée en 
-        compétences.
-
-        ##### Missions
-
-        - Garant du bon fonctionnement des applications
-        - Traitement des incidents jusqu'a résolution
-        - Gérer les échéances
-        - Automatiser les processus
-        - Control en temps réel(sondes/graph), analyse, résolution et repporting
-        - Participation à la definition de la politique de securité et sauvegarde
-        - Gestion des coûts (AWS)
-        - Gêrer les scripts d'infrastructure as code
-        - Rédiger des scripts Shell
-        - Mise en place de procédures et d'outils
-        - Mettre en production les nouvelles apps / évolutions
-        - Gérer le versionning
-        - Mettre en place des process d'integration et de deploiement continu
-        - Planification des interventions de maintenance
-        - Etude et mise en place d'amélioration d'infrastructure
-        - Participation aux études techniques et de fesabilité
-        - Developpement Applicatif (PHP/Symfony, Node/lambda)
-
-    - role: Lead dev / Admin Système / Dev Full Stack
-      time: mars 2014 - juin 2016
-      company: Skimia Agency
+          Supervision de la migration d’apps légacy vers docker, mise en place 
+          des tests automatisés et du déploiement continu ainsi que du 
+          développement d’outils cli afin de simplifier ces processus.
+          
+          Gestion et maintenance de clusters Rancher (~ 50 nodes), ainsi que des 
+          outils automatisés pour gérer les opérations lourdes.
+          
+          Préparation de la transition vers le cloud AWS avec l’orchestrateur 
+          Kubernetes, analyses & choix techniques: Infrastructure as Code, 
+          Autoscaling, Self-healing, monitoring, logging, tests de charge et de 
+          résilience.
+          
+          Monitoring d'un cluster kubernetes de production d'en moyenne 70 nodes, 
+          déploiement zéro downtime, auto-scaling des nodes & pods.
+          
+          Automatisation de divers procédés cloud (Lambdas)
+          
+          Mises à jour des composants d'infrastructure (kubernetes)
+          
+          Développement d’applications back (micro-services) en Php 7, Postgres, 
+          S3.
+          
+          Soutien technique et accompagnement dans la formation pour la montée en 
+          compétences.
+          
+          ##### Missions
+          
+          - Garant du bon fonctionnement des applications
+          - Traitement des incidents jusqu'a résolution
+          - Gérer les échéances
+          - Automatiser les processus
+          - Control en temps réel(sondes/graph), analyse, résolution et repporting
+          - Participation à la definition de la politique de securité et sauvegarde
+          - Gestion des coûts (AWS)
+          - Gêrer les scripts d'infrastructure as code
+          - Rédiger des scripts Shell
+          - Mise en place de procédures et d'outils
+          - Mettre en production les nouvelles apps / évolutions
+          - Gérer le versionning
+          - Mettre en place des process d'integration et de deploiement continu
+          - Planification des interventions de maintenance
+          - Etude et mise en place d'amélioration d'infrastructure
+          - Participation aux études techniques et de fesabilité
+          - Developpement Applicatif (PHP/Symfony, Node/lambda)
+      role: "DevOps Engineer / Dev Back"
+      time: "juin 2016 - mai 2019"
+    - 
+      company: "Skimia Agency"
       details: |
-        En charge de l’analyse des besoins clients, découpage en tâches, 
-        priorisation et distribution en fonction des compétences de chacun, 
-        plannings et mise en place des outils d’intégration continue 
-        (Travis, Code Cov, Style Ci, et documentation hébergée). 
-
-        Soutien technique et accompagnement dans la formation pour la montée en 
-        compétences. Provisionning des serveurs, mise en production et 
-        maintenance. 
-
-        Apport de toute mon expertise technique pour la conception et la 
-        maintenance du logiciel de conception de site internet avec divers 
-        modules le skimia OS.
-        ##### Missions
-
-        - Manager une équipe de developpeurs
-        - Former les collaborateurs
-        - Rencontrer les clients
-        - Mettre en place des process d'integration
-        - Garant du bon fonctionnement des applications
-        - Traitement des incidents jusqu'a résolution
-        - Gérer les échéances
-        - Mettre en production les nouvelles évolutions
-        - Participation aux études techniques et de fesabilité
-        - Developpement Applicatif (PHP/Laravel)
-
-    - role: Dev Full Stack / Gestion serveur / Chef de projet
-      time: mars 2015 - juin 2016
+          En charge de l’analyse des besoins clients, découpage en tâches, 
+          priorisation et distribution en fonction des compétences de chacun, 
+          plannings et mise en place des outils d’intégration continue 
+          (Travis, Code Cov, Style Ci, et documentation hébergée). 
+          
+          Soutien technique et accompagnement dans la formation pour la montée en 
+          compétences. Provisionning des serveurs, mise en production et 
+          maintenance. 
+          
+          Apport de toute mon expertise technique pour la conception et la 
+          maintenance du logiciel de conception de site internet avec divers 
+          modules le skimia OS.
+          ##### Missions
+          
+          - Manager une équipe de developpeurs
+          - Former les collaborateurs
+          - Rencontrer les clients
+          - Mettre en place des process d'integration
+          - Garant du bon fonctionnement des applications
+          - Traitement des incidents jusqu'a résolution
+          - Gérer les échéances
+          - Mettre en production les nouvelles évolutions
+          - Participation aux études techniques et de fesabilité
+          - Developpement Applicatif (PHP/Laravel)
+      role: "Lead dev / Admin Système / Dev Full Stack"
+      time: "mars 2014 - juin 2016"
+    - 
       company: Alvecom
       details: |
-        En charge de la maintenance du serveur dédié, ainsi que du réseau local 
-        de partage. Ainsi que des développements de l’application de gestion 
-        d’annonces sur les places de marché.
-
-        Gestion des tâches et des délais prévisionnels.
-        ##### Missions
-
-        - Garant du bon fonctionnement des applications
-        - Traitement des incidents jusqu'a résolution
-        - Gérer les échéances 
-        - Automatiser les processus
-        - Mettre en production les nouvelles évolutions
-        - Gérer le versionning
-        - Planification des interventions de maintenance
-        - Participation aux études techniques et de fesabilité
-        - Developpement Applicatif (PHP/Laravel)
-
-projects:
-  title: Projets
-
-  assignments:
-    - title: Quarkit
+          En charge de la maintenance du serveur dédié, ainsi que du réseau local 
+          de partage. Ainsi que des développements de l’application de gestion 
+          d’annonces sur les places de marché.
+          
+          Gestion des tâches et des délais prévisionnels.
+          ##### Missions
+          
+          - Garant du bon fonctionnement des applications
+          - Traitement des incidents jusqu'a résolution
+          - Gérer les échéances 
+          - Automatiser les processus
+          - Mettre en production les nouvelles évolutions
+          - Gérer le versionning
+          - Planification des interventions de maintenance
+          - Participation aux études techniques et de fesabilité
+          - Developpement Applicatif (PHP/Laravel)
+      role: "Dev Full Stack / Gestion serveur / Chef de projet"
+      time: "mars 2015 - juin 2016"
+  title: Experiences
+footer: "Designed with <i class=\"fas fa-heart\"></i> by <a href=\"http://themes.3rdwavemedia.com\" target=\"_blank\" rel=\"nofollow\">Xiaoying Riley</a>"
+projects: 
+  assignments: 
+    - 
       link: "https://kesslerdev.github.io/quarkit/demo-react/"
       tagline: "Clicker gameplay framework"
-
-    - title: SkimiaOS
+      title: Quarkit
+    - 
       tagline: "Application sur mesure de gestion de site vitrine fronend AngularJS et backend Api REST sous laravel."
-
-    - title: Sharkemu
+      title: SkimiaOS
+    - 
       tagline: "Contribution à l'implémentation de gameplay de cet émulateur pour un mmorpg au tour par tour"
-
-skills:
-  #title:
-
-  toolset:
-    - name: Orchestration
-      known: Kubernetes, Openshift, swarm
-
-    - name: Tools
-      known: Terraform, Helm, ArgoCD, gitlab-ci, Cloudinit
-
-    - name: Composants
-      known: CoreDNS, Nginx, Traefik, Fluentd, Prometheus, Grafana, Kibana, RabbitMQ HA
-
-    - name: Cloud Aws
-      known: EC2, IAM, Lambda, S3, RDS, CloudFormation, Cloudfront,...
-
-    - name: Dev
-      known: Javascript modèrne nodejs, serverless, php7, C#, shell
-
-    - name: Autres
-      known: GraphQl, Redis, MySQL, MongoDB, PostgresSQL
-
-footer: >
-  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+      title: Sharkemu
+  title: Projets
+sidebar: 
+  about: true
+  annonymous: false
+  avatar: profile.jpeg
+  bitbucket: kesslerdev
+  education: 
+    list: 
+      - 
+        degree: Autodidacte
+        time: "à partir de 2003"
+        university: Web
+    title: Formation
+  email: kessler.dev@gmail.com
+  github: kesslerdev
+  gitlab: kesslerdev
+  interests: 
+    list: 
+      - 
+        item: Téchnologie
+      - 
+        item: "Impression 3D"
+      - 
+        item: Science
+      - 
+        item: Domotique
+    title: Hobbies
+  languages: 
+    list: 
+      - 
+        idiom: Anglais
+        level: Professionnel
+    title: Langues
+  linkedin: jfmonnierdev
+  name: "Jeff Monnier"
+  tagline: "DevOps Engineer"
+skills: 
+  toolset: 
+    - 
+      known: "Kubernetes, Openshift, swarm"
+      name: Orchestration
+    - 
+      known: "Terraform, Helm, ArgoCD, gitlab-ci, Cloudinit"
+      name: Tools
+    - 
+      known: "PowerDNS, CoreDNS, Nginx, Traefik, Fluentd, Prometheus, Grafana, ELK, RabbitMQ HA"
+      name: Composants
+    - 
+      known: "EC2, IAM, Lambda, S3, RDS, CloudFormation, Cloudfront,..."
+      name: "Cloud Aws"
+    - 
+      known: "Javascript modèrne nodejs, serverless, php7, C#, shell"
+      name: Dev
+    - 
+      known: "GraphQl, Redis, MySQL, MongoDB, PostgresSQL"
+      name: Autres
