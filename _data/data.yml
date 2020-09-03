@@ -53,8 +53,35 @@ career-profile:
 experiences:
   title: Experiences
   list:
-    - role: DevOps Engineer / Dev Back
-      time: juin 2016 - Present
+    - role: DevOps Engineer
+      time: mai 2019 - present
+      company: Docaposte
+      details: |
+        Deploiement / monitoring de plusieurs petits cluster kubernetes bare metal, ansi que sur openstack.
+        Chaines de déploiement, pour la gestion des composants déployes au sein de kubernetes.
+        
+        Création de diverses templates Iaac swarm / openstack (terraform).
+        
+        Developpement d'un outil interne pour le suivi des outils / accès aux differents projets.
+        
+        Deploiement et maintenance de cluster Openshift bare-metal, ainsi que du déploiement de la solution Openshift Container Storage.
+        
+        ##### Missions
+
+        - Installation & Mises à jours Kubernetes
+        - Traitement des incidents jusqu'a résolution
+        - Automatiser les processus
+        - Gêrer les scripts d'infrastructure as code
+        - Creation et gestion de templates Iaac reutilisables
+        - Rédiger des scripts Shell
+        - Mise en place de procédures et d'outils
+        - Mettre en place des process d'integration et de deploiement continu
+        - Planification des interventions de maintenance
+        - Etude et mise en place d'amélioration d'infrastructure
+        - Developpement full stack (Node/Angular)
+
+- role: DevOps Engineer / Dev Back
+      time: juin 2016 - mai 2019
       company: InExtenso Digital
       details: |
         Supervision de la migration d’apps légacy vers docker, mise en place 
